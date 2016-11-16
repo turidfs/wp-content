@@ -1,0 +1,19 @@
+/*
+ Theme Name:   Twenty Ten Child
+ Theme URI:    http://example.com/twentyten-zip/
+ Description:  Twenty Ten Child Theme
+ Author:       John Doe
+ Author URI:   http://example.com
+ Template:     twentyten
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  twentyten-zip
+*/
+
+@import url("../twentyten/style.css");
+
+body {
+    background-color: pink;
+}
