@@ -1,0 +1,91 @@
+/* General fontization for all site */
+body, input, textarea {
+          font: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+a {
+text-decoration: underline;
+}
+
+/* =Heading: Special Design
+----------------------------------------------- */
+
+#site-title {
+    /*height: 5px;*/
+    float: left;
+    /*width: 60%;*/
+/*position: relative;*/
+    /*margin: 0 0 8px 0;*/
+
+}
+
+#site-description {
+  float: right;
+  clear: both;
+  font-style: italic;
+  margin: 0 0 18px 0;
+  width: 220px;
+/*position: 20%;*/
+}
+
+#content, #content input, #content textarea {
+  color: #333;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+#main {
+    padding: 0;
+}
+
+.entry-content {
+  font-family: Georgia, "Bitstream Charter", serif;
+}
+
+#s.field {
+    display: none;
+}
+
+.entry-meta, .entry-utility, .entry-meta a, .entry-utility a {
+  color: #777;
+  text-decoration: none;
+  font-family: "Helvetica Neue", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+}
+
+.entry-meta a, .entry-utility a {
+  font-weight: normal;
+  text-decoration: underline;
+}
+
+
+.entry-title a:link, .entry-title a:visited {
+  color: #000;
+  text-decoration: none;
+font-family: "Helvetica Neue", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+}
+
+.widget-area ul ul {
+  list-style: square;
+}
+
+.widget-area a {
+  font-family: Georgia, "Bitstream Charter", serif;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+h3.widget-title {
+  color: #222;
+  font-weight: bold;
+  display: block;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  font-size: 14.039999961853px;
+  font-family: "Helvetica Neue", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+  height: 18px;
+  line-height: 18px;
+  margin: 0;
+}
+
