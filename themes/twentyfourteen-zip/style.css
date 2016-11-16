@@ -55,7 +55,7 @@ body {
     .site:before, .site-header, .site-footer {
         background-color: purple;
     }
-    aside#secondary, aside#secondary a, aside#secondary h1, header#masthead a, footer#colophon, footer#colophon h1, footer#colophon a {
+    aside#secondary, aside#secondary a, aside#secondary h1, c footer#colophon, footer#colophon h1, footer#colophon a {
         color: lightgray;
     }
     #main {
@@ -63,6 +63,13 @@ body {
     }
     aside#content-sidebar {
         background-color: white;
+    }
+    header#masthead ul a:hover {
+        background-color: pink;
+        color: black;
+    }
+    header#masthead {
+        font-family: "Lucida Console", monospace;
     }
     /* Bilder, filmer, audio start */
     /* Bilder, filmer, audio slutt */
@@ -215,15 +222,3 @@ body {
     /* Farger start */
     /* Farger slutt */
 }
-
-
-
-    
-    
-    <link rel="stylesheet" type="text/css" media="all" href="css/all.css" />
-    <link rel="stylesheet" type="text/css" media="screen" href="css/mobilePortrait.css" />
-    <link rel="stylesheet" type="text/css" media="screen and (min-width: 480px)" href="css/mobileLandscape.css" />
-    <link rel="stylesheet" type="text/css" media="screen and (min-width: 768px)" href="css/tabletPortrait.css" />
-    <link rel="stylesheet" type="text/css" media="screen and (min-width: 900px)" href="css/tabletLandscape.css" />
-    <link rel="stylesheet" type="text/css" media="screen and (min-width: 1200px)" href="css/desktop.css" />
-    <link rel="stylesheet" type="text/css" media="print" href="css/print.css" />
