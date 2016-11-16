@@ -52,6 +52,18 @@ body {
     body {
         /*max-width: 480px;*/
     }
+    .site:before, .site-header, .site-footer {
+        background-color: purple;
+    }
+    aside#secondary, aside#secondary a, aside#secondary h1, header#masthead a, footer#colophon, footer#colophon h1, footer#colophon a {
+        color: lightgray;
+    }
+    #main {
+        background-color: pink;
+    }
+    aside#content-sidebar {
+        background-color: white;
+    }
     /* Bilder, filmer, audio start */
     /* Bilder, filmer, audio slutt */
     /* Størrelser og plassering slutt */

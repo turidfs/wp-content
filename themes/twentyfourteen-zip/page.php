@@ -22,7 +22,7 @@ get_header(); ?>
 	}
 ?>
 	<div id="primary" class="content-area">
-		<div id="content" class="site-content" role="main">
+		<main id="content" class="site-content" role="main">
 
 			<?php
 				// Start the Loop.
@@ -38,7 +38,7 @@ get_header(); ?>
 				endwhile;
 			?>
 
-		</div><!-- #content -->
+		</main><!-- #content -->
 	</div><!-- #primary -->
 	<?php get_sidebar( 'content' ); ?>
 </div><!-- #main-content -->
